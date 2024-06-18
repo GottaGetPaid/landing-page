@@ -63,6 +63,33 @@ button {
     color: #F9FAF8;
 }
 
+.hero {
+    display: flex;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+.left {
+    flex: 4;
+}
+
+.big-font {
+    font-size: 48px;
+    font-weight: 900;
+    color:#F9FAF8;
+    margin: 0;
+}
+
+.right {
+    flex: 3;
+}
+
+.goldfish {
+    width: 100%;
+    height: auto;
+    margin-left: 50px;
+}
+
 .info {
     flex: 7;
     background-color: white;
