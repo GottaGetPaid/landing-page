@@ -91,8 +91,33 @@ button {
 }
 
 .info {
+    display: flex;
+    flex-direction: column;
     flex: 7;
+    align-items: center;
     background-color: white;
+    padding: 0px 100px
+}
+
+.subheader {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937
+}
+
+.subdiv {
+    display: flex;
+    gap: 50px;
+}
+
+.info-item {
+    flex: 1;
+}
+.subdiv img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1.5mm solid #3882f6;
 }
 
 .quote {
